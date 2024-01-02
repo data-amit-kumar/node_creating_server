@@ -24,8 +24,8 @@ const handle=(req,res)=>{
         return res.end();
         });
         
-        
     }
+    
 
     res.write('<html>');
     res.write('<head><title>My First page</title></head>');
