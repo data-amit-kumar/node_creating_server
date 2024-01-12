@@ -16,10 +16,14 @@
         </nav>
     </header>
     <main>
-        <form action="/add-product" method="POST">
-            <input type="text" name="title">
-            <input type="number" name="size">
-            <button type="submit">ADD Product</button>
+        <form action="/submit" method="POST">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required>
+            
+            <label for="Phnum">Contact Number</label>
+            <input type="number" id="Pnumn" name="Pnum" required>
+            
+            <button type="submit">Submit</button>
         </form>
     </main>
 </body>
